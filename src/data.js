@@ -1,4 +1,4 @@
-export default [
+const Person = [
   {
     id: 1,
     name: "Ruperta Vennings",
@@ -46,7 +46,7 @@ export default [
     name: "Therine Goodrick",
     age: 29,
     image:
-      "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACzSURBVCjPY/jPgB8yEKmg0aHxf93/6jPlR4vP5P/I+p9yFMOEuvP7/pedKerJ7cmYnNwTOx9DQaVB9/8J/3McILyw/VjcUFA//3/a/QQBPI5MOT/7f2QBHgWxCRHvg2bhVBAjEHY/8DaecAhd73/GswfCNvmPoSA4we+8x2kQywLoTP33aAqCDHzeu79xrLepN+83uq/3Xwvdm94Jrvsd9lvtN91vuF93v+Z+tX5S44ICBQA4egHkwuNCKQAAAABJRU5ErkJggg==",
+      "https://res.cloudinary.com/ibukunlive/image/upload/v1667654590/users/Avatar26_rtmqn7.jpg",
   },
   {
     id: 8,
@@ -140,3 +140,6 @@ export default [
       "https://res.cloudinary.com/ibukunlive/image/upload/v1667567323/users/Avatar11_jxldsx.jpg",
   },
 ];
+// }
+
+export default Person
